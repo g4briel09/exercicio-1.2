@@ -1,5 +1,5 @@
 class Pessoa():
-    def _init_(self, nome, peso, idade, comendo = False, falando = False, dormindo = False):
+    def __init__(self, nome, peso, idade, comendo = False, falando = False, dormindo = False):
         self.nome = nome
         self.peso = peso
         self.idade = idade
